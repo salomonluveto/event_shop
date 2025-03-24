@@ -18,6 +18,7 @@
             <li class={{ Request::is('event')? 'active' : ''}}><a href="{{route('event')}}">Evénéments</a></li>
           
             <li class={{ Request::is('contact')? 'active' : ''}}><a href="{{route('contact')}}">Contact</a></li>
+            <li><a href="{{route('logout')}}">Déconnection</a></li>
          </ul>
      </nav>
      <div id="mobile-menu-wrap"></div>
@@ -79,6 +80,7 @@
             <li class={{ Request::is('event')? 'active' : ''}}><a href="{{route('event')}}">Evénéments</a></li>
           
             <li class={{ Request::is('contact')? 'active' : ''}}><a href="{{route('contact')}}">Contact</a></li>
+            <li><a href="{{route('logout')}}">Déconnection</a></li>
                            </ul>
                        </nav>
                        
